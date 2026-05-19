@@ -3,7 +3,6 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: - State
-    // @State = variáveis que, ao mudar, redesenham a tela automaticamente
     @State private var remainingSeconds: Int = 1500   // tempo atual em segundos
     @State private var isRunning: Bool = false        // timer rodando ou pausado
     @State private var timer: Timer? = nil            // referência ao timer (nil = nenhum ativo)
@@ -11,7 +10,7 @@ struct ContentView: View {
     @State private var completedSessions: Int = 0     // quantos pomodoros concluídos
 
     // MARK: - Constants
-    // let = constante, não muda nunca
+    
     let workDuration: Int = 1500   // 25 minutos em segundos
     let breakDuration: Int = 300   // 5 minutos em segundos
     let maxSessions: Int = 4       // meta de 4 pomodoros
@@ -137,7 +136,7 @@ struct ContentView: View {
                             .shadow(color: ringColor.opacity(0.45), radius: 20)
                     }
 
-                    // Botão Skip (pula para próxima sessão)
+                    // Botão Skip
                     Button {
                         skipSession()
                     } label: {

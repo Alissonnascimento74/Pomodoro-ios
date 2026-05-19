@@ -1,0 +1,14 @@
+# Generated files
+icon_1024.png
+make_icon.swift
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.pbxuser
+.DS_Store
+
+# Swift Package Manager
+.build/

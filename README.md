@@ -13,7 +13,7 @@ A clean and minimal Pomodoro timer built with SwiftUI.
 ## Demo
 
 <a href="assets/demo.mp4">
-  <img src="Screenshots/preview-focus.png" width="280" alt="Click to watch the demo video" />
+  <img src="Screenshots/home-screen.png" width="280" alt="Click to watch the demo video" />
 </a>
 
 > Click the image above to watch the 7-second demo (sped up 3×).
@@ -40,9 +40,8 @@ A clean and minimal Pomodoro timer built with SwiftUI.
 ## Screenshots
 
 <p align="center">
-  <img src="Screenshots/preview-focus.png" width="240" alt="Focus mode" />
-  <img src="Screenshots/preview-break.png" width="240" alt="Break mode" />
-  <img src="Screenshots/preview-sessions.png" width="240" alt="Sessions complete" />
+  <img src="Screenshots/preview-focus.png" width="260" alt="Focus mode running" />
+  <img src="Screenshots/preview-break.png" width="260" alt="Break mode running" />
 </p>
 
 ## Run it locally
